@@ -38,3 +38,8 @@ for character in range(0,len(list_of_chars)):
 joined_password = ''.join(password)
 print(joined_password)
 print(len(joined_password))
+
+#alternate way when we have picked the characters which is easier
+#random.shuffle(list_of_chars)
+#new_password = ''.join(list_of_chars)
+#print(new_password)
